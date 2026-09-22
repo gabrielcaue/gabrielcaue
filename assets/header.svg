@@ -65,8 +65,8 @@
 <path class="hud" d="M20 260V300H60"/><path class="hud" d="M940 300H980V260"/>
 
 <!-- Nome (troque [SEU NOME] nas DUAS linhas abaixo) -->
-<text x="500" y="160" text-anchor="middle" class="name aura" filter="url(#glow)">[SEU NOME]</text>
-<text x="500" y="160" text-anchor="middle" class="name" fill="#ffffff">[SEU NOME]</text>
+<text x="500" y="160" text-anchor="middle" class="name aura" filter="url(#glow)">Gabriel Cauê</text>
+<text x="500" y="160" text-anchor="middle" class="name" fill="#ffffff">Gabriel Cauê</text>
 <text x="500" y="200" text-anchor="middle" class="sub">DESENVOLVEDOR JAVA · BACKEND</text>
 
 <!-- Corte de lâmina -->
