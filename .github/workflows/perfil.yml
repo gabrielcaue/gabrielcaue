@@ -1,0 +1,52 @@
+name: Atualizar cards do perfil
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Card de estatísticas
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: 'username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&bg_color=0b0b0b&title_color=ff3c00&icon_color=ff3c00&text_color=d0d0d0&ring_color=ff3c00&custom_title=Registros%20do%20Caderno'
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Card de linguagens
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&bg_color=0b0b0b&title_color=ff3c00&text_color=d0d0d0'
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cobra de contribuições
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#ff3c00&color_dots=#161b22,#4a0f00,#8a1c00,#cc2d00,#ff3c00
+
+      - name: Salvar no repositório
+        run: |
+          mkdir -p profile
+          cp dist/snake-dark.svg profile/snake-dark.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add profile
+          git commit -m "Atualiza cards do perfil" || echo "Nada novo para salvar"
+          git push
