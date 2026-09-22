@@ -46,12 +46,12 @@ public class PortadorDoCaderno {
 |---|---|---|---|
 | ⚔️ **[Projeto 1]** | API REST para [problema que resolve] | Java · Spring Boot · PostgreSQL | [🔗 Repo](https://github.com/gabrielcaue/projeto-1) |
 | 🛡️ **[Projeto 2]** | Autenticação com JWT e controle de acesso | Spring Security · Docker | [🔗 Repo](https://github.com/gabrielcaue/projeto-2) |
-| 🔥 **[Projeto 3]** | Microsserviços com mensageria | Spring Cloud · RabbitMQ | [🔗 Repo](https://github.com/gabrielcaue/projeto-3) |
+| 🔥 **[Projeto 3]** | Microsserviços com mensageria | Spring Cloud · Kafka | [🔗 Repo](https://github.com/gabrielcaue/projeto-3) |
 
 ## 🧩 Investigação em Andamento
 
-- 🔍 Investigando: **[ex.: microsserviços com Spring Cloud]**
-- 📌 Próximo suspeito: **[ex.: Kafka, Kubernetes]**
+- 🔍 Investigando: **[ex.: microsserviços com SignUp]**
+- 📌 Próximo suspeito: **[ex.: Rede Blockchain Metamask]**
 - 🎯 Procurando: **vaga de Desenvolvedor Java Júnior** — CLT ou PJ, remoto ou híbrido
 
 <img src="./assets/divider.svg" width="100%" />
