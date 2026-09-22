@@ -63,9 +63,7 @@ public class PortadorDoCaderno {
   <img height="165" src="./profile/top-langs.svg" alt="Linguagens" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=gabrielcaue&hide_border=true&background=0B0B0B&ring=FF3C00&fire=FF3C00&currStreakLabel=FF3C00&sideLabels=D0D0D0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A8A8A&stroke=2A2A2A" />
-</p>
+
 
 <p align="center">
   <img src="./profile/snake-dark.svg" width="95%" alt="Cobra de contribuições" />
