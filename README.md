@@ -35,7 +35,7 @@ public class PortadorDoCaderno {
 ## 🖋️ Instrumentos de Escrita
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,kotlin,hibernate,postgres,mysql,redis,docker,maven,gradle,git,idea,aws,linux&theme=dark&perline=7" />
+  <img src="https://skillicons.dev/icons?i=java,spring,prometheus,kafka,html,hibernate,postgres,mysql,flutter,redis,npm,github,docker,grafana,maven,gradle,git,idea,eclipse,aws,linux&theme=dark&perline=7" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" />
@@ -45,7 +45,7 @@ public class PortadorDoCaderno {
 | Caso | Objetivo | Stack | Arquivo |
 |---|---|---|---|
 | ⚔️ **[Projeto 1]** | API REST para [problema que resolve] | Java · Spring Boot · PostgreSQL | [🔗 Repo](https://github.com/gabrielcaue/projeto-1) |
-| 🛡️ **[Projeto 2]** | Autenticação com JWT e controle de acesso | Spring Security · Docker | [🔗 Repo](https://github.com/gabrielcaue/projeto-2) |
+| 🛡️ **[Projeto 2]** | Gerenciador Java de conteúdos educacionais via terminal | Java 17+ · Java I/O  · Java Collections API | [🔗 Repo](https://github.com/gabrielcaue/projeto-2) |
 | 🔥 **[Projeto 3]** | Microsserviços com mensageria | Spring Cloud · Kafka | [🔗 Repo](https://github.com/gabrielcaue/projeto-3) |
 
 ## 🧩 Investigação em Andamento
