@@ -46,7 +46,7 @@ public class PortadorDoCaderno {
 |---|---|---|---|
 | ⚔️ **[Projeto 1]** | API REST para [problema que resolve] | Java · Spring Boot · PostgreSQL | [🔗 Repo](https://github.com/gabrielcaue/projeto-1) |
 | 🛡️ **[Projeto 2]** | Gerenciador Java de conteúdos educacionais via terminal | Java 17+ · Java I/O  · Java Collections API | [🔗 Repo](https://github.com/gabrielcaue/projeto-2) |
-| 🔥 **[Projeto 3]** | Microsserviços com mensageria | Spring Cloud · Kafka | [🔗 Repo](https://github.com/gabrielcaue/projeto-3) |
+| 🔥 **[Projeto 3]** | Cache | NoSQL | Spring Boot · Redis | [🔗 Repo](https://github.com/gabrielcaue/mifica) |
 
 ## 🧩 Investigação em Andamento
 
