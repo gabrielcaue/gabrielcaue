@@ -50,9 +50,9 @@ public class PortadorDoCaderno {
 
 ## 🧩 Investigação em Andamento
 
-- 🔍 Investigando: **[ex.: microsserviços com SignUp]**
-- 📌 Próximo suspeito: **[ex.: Rede Blockchain Metamask]**
-- 🎯 Procurando: **vaga de Desenvolvedor Java Júnior** — CLT ou PJ, remoto ou híbrido
+- 🔍 Investigando: **[Rede Blockchain Metamask]**
+- 📌 Próximo suspeito: **[Microsserviços com SignUp]**
+- 🎯 Procurando: **Vaga de Desenvolvedor Java Estágio ou Júnior** — CLT ou PJ, remoto ou híbrido
 
 <img src="./assets/divider.svg" width="100%" />
 
